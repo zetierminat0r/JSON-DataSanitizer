@@ -33,9 +33,6 @@ Please note that JSON-DataSanitizer requires Python 3.x to run properly.
 - Sanitizes JSON data by replacing all non-binary values with random data.
 - Non-binary values are replaced with random strings and numbers of the same length.
 - Works with nested JSON data (i.e., JSON data that includes dictionaries and lists).
-
-## Limitations
-
 - Binary values (true, false, null) are not replaced.
 - The script does not validate the structure of the JSON data.
 
